@@ -223,6 +223,7 @@ def create_new_function(
     overwrite = True,
     add_torch_compile = False,
 ):
+    print(f"Unsloth: Creating {name}.")
     # All Unsloth Zoo code licensed under LGPLv3
     old_new_source = new_source
 
