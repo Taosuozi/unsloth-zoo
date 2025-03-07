@@ -68,7 +68,7 @@ global UNSLOTH_COMPILE_LOCATION_USE_TEMP
 COMBINED_UNSLOTH_NAME = "unsloth_compiled_module"
 UNSLOTH_COMPILE_LOCATION = "unsloth_compiled_cache"
 UNSLOTH_CREATED_FUNCTIONS = []
-UNSLOTH_COMPILE_LOCATION_USE_TEMP = False
+UNSLOTH_COMPILE_LOCATION_USE_TEMP = True ####
 
 # Try creating a directory for cache, or else use a temporary folder
 try:
