@@ -331,7 +331,7 @@ def create_new_function(
     new_module = None
     trials = 0
     while True:
-        if trials == 1000: raise RuntimeError("Unsloth: Failed to create dynamic compiled")
+        if trials == 999: raise RuntimeError("Unsloth: Failed to create dynamic compiled")
         try:
             new_module = importlib.import_module(UNSLOTH_COMPILE_LOCATION + "." + name)
             break
