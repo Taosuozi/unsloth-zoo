@@ -348,7 +348,7 @@ def create_new_function(
             # Temp modules can only use dynamic loading
             if UNSLOTH_COMPILE_LOCATION_USE_TEMP: break
 
-            time.sleep(0.01)
+            time.sleep(0.05)
             trials += 1
         pass
     pass
